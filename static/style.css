@@ -1,0 +1,52 @@
+body{
+    color: #666;
+}
+:focus{
+    outline: none;
+}
+h2{
+    text-shadow: 2px 3px 5px #333;
+    font-size: 50px !important;
+    font-style: italic;
+}
+.main{
+    float: center; 
+    width: 27.33%; 
+    margin: 40px 3%; 
+    position: relative;
+    margin: auto;
+} /* necessary to give position: relative to parent. */
+input[type="text"]{
+    font: 15px/24px ; 
+    color: #333; 
+    width: 100%; 
+    box-sizing: border-box; 
+    letter-spacing: 1px;
+    caret-color: #3399FF;
+}
+.effect-1{
+    border: 0; 
+    padding: 7px 0; 
+    border-bottom: 1px solid #ccc;
+}
+
+.effect-1 ~ .focus-border{
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 0; 
+    height: 2px; 
+    background-color: #3399FF; 
+    transition: 0.4s;
+}
+.effect-1:focus ~ .focus-border{
+    width: 100%; 
+    transition: 0.4s;
+}
+.btn a{
+    text-decoration: none;
+}
+button{
+    float: right;
+    box-shadow: 3px 3px 2px #666;
+}

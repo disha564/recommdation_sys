@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CSS file -->
+    <link rel="stylesheet" href="../static/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body style="background-image: url(../static/images/bg.png); background-size: cover;">
+    <div class="container-fluid mt-5 pt-5">
+      <h2 class="text-center mt-5 pt-5">Product Recommendation</h2>
+      <div class="main mt-5 pt-5">
+        <form action="/Submit" method=post enctype=multipart/form-data>
+          <input class="effect-1 text-center" name="username" type="text" placeholder="Enter your name">
+          <span class="focus-border"></span>
+            <button type="submit" class="btn btn-primary mt-4"><a class="text-light" >Submit</a></button>
+          </form>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html >
+<body  align="center" style="background-color:green;">
+<head>
+  <meta charset="UTF-8">
+  <title>Model Deployment</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <style>
+      body {
+        font-family: 'Tangerine', serif;
+        font-size: 28px;
+      }
+    </style>
+
+
+</head>
+
+<body>
+ <div class="login">
+	<h1 style="text-align:center">Product Recommendation</h1>
+
+    <form align="center" action="" method="post">
+		<LABEL>"user_input"</LABEL>
+		
+    	<input type="text" style="text-align:center" name="user_input" id="user_input" required="required" />
+		
+		<script>
+			exec('/Users/rashisharma/Downloads/Deployment/model.py')
+		</script>		
+        <br>
+		
+		
+		
+		
+		
+		
+		<button align="center" type="submit" class="btn btn-primary btn-block btn-large">Submit</button>
+		
+		
+		
+		
+        
+      
+        
+
+
+        
+    </form>
+
+   <br>
+   <br>
+     {{ prediction_text }}
+
+ </div>
+
+
+</body>
+</html> -->
